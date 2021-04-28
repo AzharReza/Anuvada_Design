@@ -226,8 +226,8 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.price-content label{
-    background-color: #03a9f4!important;
+.price-content .certification-tab label{
+    background-color: #03a9f4;
     color: #fff;
     padding: 5px 10px;
     margin: 2px 0px;
@@ -254,12 +254,44 @@
 .bottom-buttons .btn{
   border-radius: 0px;
 }
+.shipping-content .shipping-box{
+  padding: 10px 15px;
+  border:2px solid #ccc;
+  border-radius: 0px;
+  padding: 4px 10px;
+}
+.shipping-content .shipping-box.active{
+  border:2px solid #08a7efa8;
+}
+.shipping-content .shipping-box.active h4,
+.shipping-content .shipping-box.active i{
+   color:#08a7efa8;
+}
+.shipping-content .shipping-box h4{
+  font-size: 1.1rem;
+}
+.order-tab .form-panel{
+  background: #87aaeb3d;
+  margin:10px 0px;
+  padding: 10px 20px;
+}
+.order-tab .form-panel label{
+  color: #000;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.order-tab .form-panel input,
+.order-tab .form-panel textarea{
+  border-radius: 0px;
+  box-shadow: none;
+}
 
 @media (min-width: 601px){
   .price-content .tab-content .column-two{
     border-left:1px solid #ccc;
   }
 }
+
 
 
 /* == Order Section ==*/
@@ -654,4 +686,87 @@
      border-radius: 0px;
      padding: 6px 20px;
      font-weight: bold;
+  }
+
+  /*User Account*/
+  .user-account .left-sidebar ul{
+    background:#fff;
+    padding:10px 12px;
+    margin:10px 0px;
+  }
+  .user-account .left-sidebar ul li{
+    border-bottom: 2px solid #cccccc70;
+    color: #000;
+    padding: 5px 0px;
+  }
+  .user-account .left-sidebar ul li a{
+    color: #000;
+    font-size: 1.1rem;
+  }
+  .user-account .left-sidebar ul li a.active{
+    color: orange;
+  }
+  .user-content{
+    padding: 20px 10px;
+  }
+  .user-content form{
+    padding: 20px 15px;
+    background: #fff;
+  }
+  .user-content form h4{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-size: 1.15rem;
+  }
+  .user-content form input,
+  .user-content form select{
+    border-radius: 0px;
+    border:none;
+    border-bottom: 1px solid #000;
+    background: #43c3d821;
+    box-shadow: none;
+  }
+  .user-content form input:focus,
+  .user-content form select:focus{
+    background: #43c3d821;
+    box-shadow: none;
+  }
+  .user-content .question-content{
+    padding: 20px 15px;
+    background: #fff;
+  }
+  .user-content .question-content ul{
+    padding: 15px 20px;
+    margin: 0;
+  }
+  .user-content .question-content ul li{
+    padding:5px 5px;
+  }
+  .user-content .question-content ul a{
+    color: #1fde1f;
+    font-size: 1.15rem;
+  }
+  .question-panel h5{
+    font-size: 1.2rem;
+    color: #000;
+    border-left: 3px solid #1fde1f;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    background: #cccccc24;
+  }
+  .user-content .user-balance{
+    margin:10px 10px;
+    padding: 20px 15px;
+  }
+  .user-balance .balance-header,
+  .user-balance .balance-body,
+  .user-balance .balance-footer{
+    background: #fff;
+    margin:10px 0px;
+    padding: 20px 15px;
+  }
+  .user-balance h5{
+    color: #000;
+    font-weight: 600;
   }
